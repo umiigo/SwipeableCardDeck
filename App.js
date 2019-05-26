@@ -6,3 +6,16 @@ export default class App extends Component {
     return <View style={styles.card} />;
   }
 }
+
+const styles = StyleSheet.create({
+  card: {
+    flex: 1,
+    backgroundColor: "white",
+    margin: 10,
+    marginTop: 100,
+    marginBottom: 100,
+    borderWidth: 1,
+    borderColor: "lightgrey",
+    borderRadius: 8
+  }
+});
